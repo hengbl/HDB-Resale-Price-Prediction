@@ -118,7 +118,7 @@ In this project, we studied the HDB resale price in Singapore to build a model t
 <h2>Libraries</h3>
 <!-- markdownlint-disable MD033 -->
 <!-- The lack of line breaks within anchor tags is due to a weird underline appearing when line breaks are present. -->
-<p align="center">
+<p align="left">
 <a href="https://numpy.org" title="Numpy"><img src="img/numpy.png" height="80" width="auto" /></a>
   &nbsp;
   <a href="https://pandas.pydata.org" title="Pandas"><img src="img/pandas.png" height="80" width="auto" /></a>
