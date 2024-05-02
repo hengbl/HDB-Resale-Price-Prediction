@@ -127,7 +127,7 @@ In this project, we studied the HDB resale price in Singapore to build a model t
   &nbsp;
   <a href="https://geopy.readthedocs.io" title="Geopy"><img src="img/geopy.png" height="80" width="auto" /></a>
   &nbsp;
-  <a href="https://scikit-learn.org/stable/" title="Scikit-Learn"><img src="images/sklearn.png" height="80" width="auto" /></a>
+  <a href="https://scikit-learn.org/stable/" title="Scikit-Learn"><img src="img/sklearn.png" height="80" width="auto" /></a>
   &nbsp;
   <a href="https://xgboost.readthedocs.io/en/stable/" title="XGBoost"><img src="img/xgb.png" height="80" width="auto" /></a>
 </p>
