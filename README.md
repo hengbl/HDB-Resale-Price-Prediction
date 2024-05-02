@@ -1,5 +1,5 @@
 <h1>HDB-Resale-Price-Prediction </h1>
-<img src="img/logo.png" width="210" height="110" style="border: none;">
+<img src="img/cover.png" style="border: none;">
 <p>Training classification models to predict HDB resale flats in Singapore</p>
 <br>
 <h2>Motivation</h2>
