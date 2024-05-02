@@ -28,7 +28,6 @@
 <li>Concatenate Block and Street Name to get full address</li>
 <li>Merge all the amenities data with HDB resale data</li>
 </ul>
-<br>
 <span>After Exploratory Data Analysis, this are the top distinct features with price:</span>
 <ol>
 <li>Storey</li>
@@ -39,7 +38,7 @@
 <span>There were other features that have a possible linear relationship with resale price such as distance to MRT station and distance to nearest mall. However the trend is not fully distinct based on the plots as these features are not the primary factors but instead are just some of the many considerations that influence the inconvenience of a particular flat. Hence, even though they do not have a very strong linear correlation with resale price, we have decided not to remove them from model training as the interaction between all these features could result in patterns that we are unable to observe through EDA.</span>
 
 <h3>4. Model Training</h3>
-
+<img src="img/flow.png" style="border: none;">
 
 <h3>5. Model Performance</h3>
 <table>
@@ -99,7 +98,7 @@
 
 <!---Conclusion-->
 <h2>Conclusion</h2>
-In this project, we studied the HDB resale price in Singapore to build a model that can predict its price given a comprehensive set of parameters as the prices can be influenced by a range of different factors. <a>We also managed to exercise our creativity and tap on existing publications in this domain to improve the quality of our datasets as well as model training:</a>
+In this project, we studied the HDB resale price in Singapore to build a model that can predict its price given a comprehensive set of parameters as the prices can be influenced by a range of different factors. <strong>We also managed to exercise our creativity and tap on existing publications in this domain to improve the quality of our datasets as well as model training:</strong>
 <ol>
 <li>We made use of the OneMap API to get the coordinates of educational institutions, shopping malls, police stations, green areas, MRT and bus stations and Singapore, and subsequently find the distance between them and the resale flats as we know that the prices are influenced by nearby amenities and public transport network. We also included crime rate data by town as we believe that this could also affect the price of resale flat in the area. This feature extraction process enriched our dataset and allowed our model to learn the data better.</li>
    
@@ -109,7 +108,7 @@ In this project, we studied the HDB resale price in Singapore to build a model t
 </ol>
 <hr>
 
-<a>However, we also recognized that there are still room for improvements in our project:</a>
+<strong>However, we also recognized that there are still room for improvements in our project:</strong>
 <ol>
 <li>Since our dataset include a wide range of years from 2012 to 2021, we did not consider that some of the amenities such as MRT station and malls may not be built there yet hence there could be inaccuracies in our data leading to bias and noise. Moving forward, we can just collect more datapoints for one particular year alone which will allow us to filter out the amenitites that have been built there at the point of the resale</li>
    
