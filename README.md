@@ -1,6 +1,6 @@
 <h1>HDB Resale Price Prediction (2012 to 2021)</h1>
 <img src="img/cover.png" style="border: none;">
-<p>Training classification models to predict HDB resale flats in Singapore</p>
+<p>A Comprehensive Guide to training classification models to predict HDB resale flats in Singapore.</p>
 
 <!---Project Motivation-->
 <h2>Motivation</h2>
@@ -13,7 +13,7 @@
 <h2>Methodology</h2>
 
 <h3>1. Data Sources</h3>
-<p>All raw data sources are extracted from <a href="data.gov.sg">Singapore's open data platform</a>.</p>
+<p>All raw data sources are extracted from <a href="https://beta.data.gov.sg">Singapore's open data platform</a>.</p>
 
 <h3>2. Data Extraction</h3>
 <p>We made use of <a href="https://www.onemap.gov.sg">OneMap API</a> to retrieve a list of coordinates of amenities and calculate the distance between amenity and HDB flat using Python <a href="https://geopy.readthedocs.io">GeoPy</a> library.<p>
