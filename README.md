@@ -114,3 +114,21 @@ In this project, we studied the HDB resale price in Singapore to build a model t
    
 <li>We did not consider economic and political factors in our data such as inflation rate and the change in housing policies as it makes the data processing too complex for our project and may lead to more errors. However, we do recognise that it is an important aspect that could affect the prices of resale flat drastically. While it is not substantial, including year as a feature inside the data could contain some information on these factors. For example, resale flats sold in 2021 could all be much higher compared to previous years due to Covid and similarly those sold in 2024 will also be higher due to increase in GST. Nevertheless, moving forward we can explicitly include economic and political features inside the data to make it even more robust.</li>
 </ol>
+
+<h2>Libraries</h3>
+<!-- markdownlint-disable MD033 -->
+<!-- The lack of line breaks within anchor tags is due to a weird underline appearing when line breaks are present. -->
+<p align="center">
+<a href="https://numpy.org" title="Numpy"><img src="img/numpy.png" height="100" width="auto" /></a>
+  &nbsp;
+  <a href="https://pandas.pydata.org" title="Pandas"><img src="img/pandas.png" height="100" width="auto" /></a>
+  &nbsp;
+  <a href="https://seaborn.pydata.org" title="Seaborn"><img src="img/seaborn.png" height="100" width="auto" /></a>
+  &nbsp;
+  <a href="https://geopy.readthedocs.io" title="Geopy"><img src="img/geopy.png" height="100" width="auto" /></a>
+  &nbsp;
+  <a href="https://scikit-learn.org/stable/" title="Scikit-Learn"><img src="images/sklearn.png" height="100" width="auto" /></a>
+  &nbsp;
+  <a href="https://xgboost.readthedocs.io/en/stable/" title="XGBoost"><img src="img/xgb.png" height="100" width="auto" /></a>
+</p>
+<!-- markdownlint-enable MD033 -->
