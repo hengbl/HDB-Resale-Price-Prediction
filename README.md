@@ -16,9 +16,8 @@
 <p>All raw data sources are extracted from <a href="data.gov.sg">Singapore's open data platform</a>.</p>
 
 <h3>2. Data Extraction</h3>
-<br>
 <p>We made use of <a href="https://www.onemap.gov.sg">OneMap API</a> to retrieve a list of coordinates of amenities and calculate the distance between amenity and HDB flat using Python <a href="https://geopy.readthedocs.io">GeoPy</a> library.<p>
-<img src="img/data_extraction.png" width="1075" height="645" style="border: none;">
+<img src="img/data_extraction.png" height="1075" width="645" style="border: none;">
 
 </h3>3. Data Pre-processing & EDA</h3>
 <span>We carry out the following pre-processing across the different datasets to ensure data consistency and quality before merging them together.</span>
